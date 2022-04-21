@@ -8,7 +8,8 @@ import "bootstrap/dist/css/bootstrap.css";
 
 createApp(App).use(BootstrapVue);
 
-axios.defaults.baseURL = process.env.NODE_ENV === "development" ? "http://localhost:3000" : "/";
+axios.defaults.baseURL =
+  process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://powerful-mesa-06277.herokuapp.com";
 
 createApp(App).use(router).mount("#app");
 
