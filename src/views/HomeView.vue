@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-  <div class="home">
+  <div class="home m-5 p-5">
     <h1>{{ message }}</h1>
   </div>
 </template>
