@@ -469,9 +469,16 @@
       </li>
 
       <li class="nav-item">
+        <a class="nav-link collapsed" href="/customers">
+          <i class="bi bi-person-rolodex"></i>
+          <span>Customers</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
         <a class="nav-link collapsed" href="users-profile.html">
           <i class="bi bi-person"></i>
-          <span>Profile</span>
+          <span>My Profile</span>
         </a>
       </li>
       <!-- End Profile Page Nav -->
