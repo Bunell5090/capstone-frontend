@@ -487,9 +487,9 @@
       <!-- End Contact Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed">
+        <a class="nav-link collapsed" href="register">
           <i class="bi bi-card-list"></i>
-          <router-link to="/register">Register</router-link>
+          <span>Register</span>
         </a>
       </li>
       <!-- End Register Page Nav -->
