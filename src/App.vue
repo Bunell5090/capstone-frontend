@@ -10,20 +10,20 @@
   <!-- Begin Header -->
   <header id="header" class="header fixed-top d-flex align-items-center">
     <div class="d-flex align-items-center justify-content-between">
-      <!-- <a href="/index.html" class="logo d-flex align-items-center">
+      <a href="/index.html" class="logo d-flex align-items-center">
         <img src="/assets/img/logo.png" alt="" />
         <span class="d-none d-lg-block">PetVet</span>
-      </a> -->
-      <i class="bi bi-list toggle-sidebar-btn"></i>
+      </a>
+      <!-- <i class="bi bi-list toggle-sidebar-btn"></i> -->
     </div>
     <!-- End Logo -->
 
-    <div class="search-bar">
+    <!-- <div class="search-bar">
       <form class="search-form d-flex align-items-center" method="POST" action="#">
         <input type="text" name="query" placeholder="Search" title="Enter search keyword" />
         <button type="submit" title="Search"><i class="bi bi-search"></i></button>
       </form>
-    </div>
+    </div> -->
     <!-- End Search Bar -->
 
     <nav class="header-nav ms-auto">
@@ -244,7 +244,7 @@
       <li class="nav-item">
         <a class="nav-link collapsed" href="/home">
           <i class="bi bi-grid"></i>
-          <span>Dashboard</span>
+          <span>Home</span>
         </a>
       </li>
       <!-- End Dashboard Nav -->
@@ -462,14 +462,14 @@
 
       <!-- <li class="nav-heading">Pages</li> -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="/pets">
+        <a class="nav-link collapsed" href="/pet">
           <i class="bx bxl-baidu"></i>
           <span>Pets</span>
         </a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="/customers">
+        <a class="nav-link collapsed" href="/customer">
           <i class="bi bi-person-rolodex"></i>
           <span>Customers</span>
         </a>
