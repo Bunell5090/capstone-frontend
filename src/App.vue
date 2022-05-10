@@ -213,7 +213,7 @@
             </li>
 
             <li>
-              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+              <a class="dropdown-item d-flex align-items-center" href="">
                 <i class="bi bi-question-circle"></i>
                 <span>Need Help?</span>
               </a>
@@ -462,14 +462,14 @@
 
       <!-- <li class="nav-heading">Pages</li> -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="/pet">
+        <a class="nav-link collapsed" href="/pets">
           <i class="bx bxl-baidu"></i>
           <span>Pets</span>
         </a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="/customer">
+        <a class="nav-link collapsed" href="/customers">
           <i class="bi bi-person-rolodex"></i>
           <span>Customers</span>
         </a>

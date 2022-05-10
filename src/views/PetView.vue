@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="pets">
     <h1>Pet Info</h1>
     <p>Name: {{ pets.name }}</p>
     <p>Species: {{ pets.species }}</p>
@@ -7,7 +7,7 @@
     <p>Birthday: {{ pets.birthday }}</p>
     <p>Sex: {{ pets.sex }}</p>
     <p>Sterilized: {{ pets.sterilized }}</p>
-    <router-link to="/pet">Back to all pets</router-link>
+    <router-link to="/pets">Back to all pets</router-link>
   </div>
 </template>
 
@@ -21,7 +21,7 @@ export default {
     };
   },
   created: function () {
-    axios.get(`/pet/${this.$route.params.id}`).then((response) => {
+    axios.get(`/pets/${this.$route.params.id}`).then((response) => {
       this.pets = response.data;
     });
   },

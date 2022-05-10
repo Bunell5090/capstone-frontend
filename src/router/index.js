@@ -21,8 +21,8 @@ const routes = [
     component: RegisterView,
   },
   {
-    path: "/pet",
-    name: "pet",
+    path: "/pets/:id",
+    name: "pets",
     component: PetView,
   },
   {
