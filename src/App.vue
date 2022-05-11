@@ -14,7 +14,7 @@
         <img src="/assets/img/logo.png" alt="" />
         <span class="d-none d-lg-block">PetVet</span>
       </a>
-      <!-- <i class="bi bi-list toggle-sidebar-btn"></i> -->
+      <i class="bi bi-list toggle-sidebar-btn"></i>
     </div>
     <!-- End Logo -->
 

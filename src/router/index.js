@@ -5,12 +5,18 @@ import RegisterView from "../views/RegisterView.vue";
 import PetView from "../views/PetView.vue";
 import CustomerView from "../views/CustomerView.vue";
 import PetIndex from "../views/PetIndex.vue";
+import CalendarView from "../views/CalendarView.vue";
 
 const routes = [
   {
     path: "/",
     name: "home",
     component: HomeView,
+  },
+  {
+    path: "/calendar",
+    name: "calendar",
+    component: CalendarView,
   },
   {
     path: "/login",
@@ -28,7 +34,7 @@ const routes = [
     component: PetView,
   },
   {
-    path: "/pets/:id",
+    path: "/pets",
     name: "petsindex",
     component: PetIndex,
   },
