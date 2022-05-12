@@ -9,7 +9,7 @@
       <p>Sex: {{ pets.sex }}</p>
       <p>Sterilized: {{ pets.sterilized }}</p>
       <router-link v-bind:to="`/pets/${pets.id}`">
-        <img v-bind:src="pets.image" v-bind:alt="pets.name" style="max-width: 250px" />
+        <!-- <img v-bind:src="pets.image" v-bind:alt="pets.name" style="max-width: 250px" /> -->
       </router-link>
     </div>
   </div>

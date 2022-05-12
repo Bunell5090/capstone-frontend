@@ -35,7 +35,7 @@ const routes = [
   },
   {
     path: "/pets",
-    name: "petsindex",
+    name: "petindex",
     component: PetIndex,
   },
   {
