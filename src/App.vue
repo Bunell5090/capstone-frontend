@@ -1,4 +1,5 @@
 <template>
+  <!-- <div id="app"> -->
   <header>
     <div class="header-top-bar">
       <div class="container">
@@ -230,6 +231,7 @@
       </div>
     </div>
   </footer>
+  <!-- </div> -->
 </template>
 
 <style></style>
