@@ -39,9 +39,14 @@ const routes = [
     component: PetIndex,
   },
   {
-    path: "/customer",
-    name: "customer",
+    path: "/customers/:id",
+    name: "customerview",
     component: CustomerView,
+  },
+  {
+    path: "/customers",
+    name: "customer",
+    component: CustomerIndex,
   },
   {
     path: "/about",
