@@ -30,12 +30,12 @@ const routes = [
   },
   {
     path: "/pets/:id",
-    name: "pets",
+    name: "petview",
     component: PetView,
   },
   {
     path: "/pets",
-    name: "petindex",
+    name: "pets",
     component: PetIndex,
   },
   {
