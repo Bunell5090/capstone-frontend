@@ -31,11 +31,21 @@
         Gender:
         <input type="text" v-model="newPet.Gender" />
       </p>
+      <p>
+        Sterilized:
+        <input type="radio" v-model="newPet.Gender" />
+        <br />
+        <label for="true">Yes</label>
+        <br />
+        <label for="false">No</label>
+        <br />
+      </p>
 
       <p>
         Image Link:
         <input type="text" v-model="newPet.image" />
       </p>
+
       <input type="submit" value="Create Pet" />
     </form>
   </div>
