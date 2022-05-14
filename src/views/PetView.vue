@@ -5,7 +5,7 @@
     <p>Species: {{ pets.species }}</p>
     <p>Breed: {{ pets.breed }}</p>
     <p>Birthday: {{ pets.birthday }}</p>
-    <p>Sex: {{ pets.sex }}</p>
+    <p>Gender: {{ pets.gender }}</p>
     <p>Sterilized: {{ pets.sterilized }}</p>
     <router-link to="/pets">Back to all pets</router-link>
   </div>

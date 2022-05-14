@@ -6,6 +6,7 @@ import PetView from "../views/PetView.vue";
 import CustomerView from "../views/CustomerView.vue";
 import PetIndex from "../views/PetIndex.vue";
 import CalendarView from "../views/CalendarView.vue";
+import CustomerIndex from "../views/CustomerIndex.vue";
 
 const routes = [
   {

@@ -6,7 +6,7 @@
       <p>Species: {{ pet.species }}</p>
       <p>Breed: {{ pet.breed }}</p>
       <p>Birthday: {{ pet.birthday }}</p>
-      <p>Sex: {{ pet.sex }}</p>
+      <p>Gender: {{ pet.gender }}</p>
       <p>Sterilized: {{ pet.sterilized }}</p>
       <router-link v-bind:to="`/pets/${pet.id}`">
         <!-- <img v-bind:src="pets.image" v-bind:alt="pets.name" style="max-width: 250px" /> -->

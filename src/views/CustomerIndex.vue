@@ -1,7 +1,7 @@
 <template>
   <div class="customers">
     <div v-for="customer in customers" v-bind:key="customer.id">
-      <h1>customer Info</h1>
+      <h1>Customer Info</h1>
       <p>First Name: {{ customer.first_name }}</p>
       <p>Last Name: {{ customer.last_name }}</p>
       <p>Address: {{ customer.address }}</p>

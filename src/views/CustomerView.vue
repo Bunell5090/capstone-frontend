@@ -1,13 +1,12 @@
 <template>
   <div class="customerview">
     <h1>Customer Info</h1>
-    <p>Name: {{ customers.name }}</p>
-    <p>Species: {{ customers.species }}</p>
-    <p>Breed: {{ customers.breed }}</p>
-    <p>Birthday: {{ customers.birthday }}</p>
-    <p>Sex: {{ customers.sex }}</p>
-    <p>Sterilized: {{ customers.sterilized }}</p>
-    <router-link to="/customers">Back to all pets</router-link>
+    <p>First Name: {{ customers.first_name }}</p>
+    <p>Last Name: {{ customers.last_name }}</p>
+    <p>Address: {{ customers.address }}</p>
+    <p>City, State: {{ customers.city_state }}</p>
+    <p>Zipcode: {{ customers.zipcode }}</p>
+    <router-link to="/customers">Back to all customers</router-link>
   </div>
 </template>
 
