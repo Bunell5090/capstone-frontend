@@ -5,6 +5,7 @@ import RegisterView from "../views/RegisterView.vue";
 import PetView from "../views/PetView.vue";
 import CustomerView from "../views/CustomerView.vue";
 import PetIndex from "../views/PetIndex.vue";
+import PetNew from "../views/PetNew.vue";
 import CalendarView from "../views/CalendarView.vue";
 import CustomerIndex from "../views/CustomerIndex.vue";
 
@@ -38,6 +39,11 @@ const routes = [
     path: "/pets",
     name: "pets",
     component: PetIndex,
+  },
+  {
+    path: "/pets/new",
+    name: "petsnew",
+    component: PetNew,
   },
   {
     path: "/customers/:id",
