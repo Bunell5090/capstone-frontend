@@ -28,16 +28,29 @@
         <input type="date" v-model="newPet.birthday" />
       </p>
       <p>
-        Gender:
-        <input type="text" v-model="newPet.Gender" />
+        Customer ID:
+        <input type="customer" v-model="newPet.customer_id" />
       </p>
+
+      Gender:
+      <br />
+      <input type="radio" name="gender" value="Male" v-model="newPet.gender" />
+      Male
+      <br />
+      <input type="radio" name="gender" value="Female" v-model="newPet.gender" />
+      Female
+
+      <br />
+
       <p>
         Sterilized:
-        <input type="radio" v-model="newPet.Gender" />
         <br />
-        <label for="true">Yes</label>
+        <input type="radio" name="sterilized" value="true" v-model="newPet.sterilized" />
+        Yes
         <br />
-        <label for="false">No</label>
+        <input type="radio" name="sterilized" value="false" v-model="newPet.sterilized" />
+        No
+
         <br />
       </p>
 
