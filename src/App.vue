@@ -50,67 +50,48 @@
           <div class="collapse navbar-collapse" id="navbarmain">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="http://localhost:8080/">Home</a>
               </li>
-              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+              <!-- <li class="nav-item"><a class="nav-link" href="about.html">About</a></li> -->
+              <!-- <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li> -->
 
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
-                  href="department.html"
+                  href=""
                   id="dropdown02"
                   data-toggle="dropdown"
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  Department
+                  Customers
                   <i class="icofont-thin-down"></i>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown02">
-                  <li><a class="dropdown-item" href="department.html">Departments</a></li>
-                  <li><a class="dropdown-item" href="department-single.html">Department Single</a></li>
+                  <li><a class="dropdown-item" href="http://localhost:8080/customers/">Customer List</a></li>
+                  <li><a class="dropdown-item" href="http://localhost:8080/customers/new">New Customer</a></li>
                 </ul>
               </li>
 
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
-                  href="doctor.html"
+                  href=""
                   id="dropdown03"
                   data-toggle="dropdown"
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  Doctors
+                  Pets
                   <i class="icofont-thin-down"></i>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                  <li><a class="dropdown-item" href="doctor.html">Doctors</a></li>
-                  <li><a class="dropdown-item" href="doctor-single.html">Doctor Single</a></li>
-                  <li><a class="dropdown-item" href="appoinment.html">Appoinment</a></li>
+                  <li><a class="dropdown-item" href="http://localhost:8080/pets/">Pet List</a></li>
+                  <li><a class="dropdown-item" href="http://localhost:8080/pets/new">New Pet</a></li>
                 </ul>
               </li>
 
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="blog-sidebar.html"
-                  id="dropdown05"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Blog
-                  <i class="icofont-thin-down"></i>
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown05">
-                  <li><a class="dropdown-item" href="blog-sidebar.html">Blog with Sidebar</a></li>
-
-                  <li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
-                </ul>
-              </li>
-              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+              <li class="nav-item"><a class="nav-link" href="http://localhost:8080/appointments">Appointments</a></li>
             </ul>
           </div>
         </div>
