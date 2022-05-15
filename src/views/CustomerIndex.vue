@@ -5,7 +5,8 @@
       <p>First Name: {{ customer.first_name }}</p>
       <p>Last Name: {{ customer.last_name }}</p>
       <p>Address: {{ customer.address }}</p>
-      <p>City, State: {{ customer.city_state }}</p>
+      <p>City: {{ customer.city }}</p>
+      <p>State: {{ customer.state }}</p>
       <p>Zipcode: {{ customer.zipcode }}</p>
       <router-link v-bind:to="`/customers/${customer.id}`">
         <!-- <img v-bind:src="customers.image" v-bind:alt="customers.name" style="max-width: 250px" /> -->

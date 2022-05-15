@@ -1,5 +1,5 @@
 <template>
-  <div class="petview">
+  <div class="petsview">
     <h1>Pet Info</h1>
     <p>Name: {{ pets.name }}</p>
     <p>Species: {{ pets.species }}</p>

@@ -6,8 +6,11 @@ import PetView from "../views/PetView.vue";
 import CustomerView from "../views/CustomerView.vue";
 import PetIndex from "../views/PetIndex.vue";
 import PetNew from "../views/PetNew.vue";
+import PetEdit from "../views/PetEdit.vue";
 import CalendarView from "../views/CalendarView.vue";
 import CustomerIndex from "../views/CustomerIndex.vue";
+import CustomerNew from "../views/CustomerNew.vue";
+import CustomerEdit from "../views/CustomerEdit.vue";
 
 const routes = [
   {
@@ -46,14 +49,29 @@ const routes = [
     component: PetNew,
   },
   {
+    path: "/pets/edit",
+    name: "petsedit",
+    component: PetEdit,
+  },
+  {
     path: "/customers/:id",
-    name: "customerview",
+    name: "customersview",
     component: CustomerView,
   },
   {
     path: "/customers",
-    name: "customer",
+    name: "customers",
     component: CustomerIndex,
+  },
+  {
+    path: "/customers/new",
+    name: "customersnew",
+    component: CustomerNew,
+  },
+  {
+    path: "/customers/edit",
+    name: "customersedit",
+    component: CustomerEdit,
   },
   {
     path: "/about",
