@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import LoginView from "../views/LoginView.vue";
+import LogoutView from "../views/LogoutView.vue";
 import RegisterView from "../views/RegisterView.vue";
 import PetView from "../views/PetView.vue";
 import CustomerView from "../views/CustomerView.vue";
@@ -29,6 +30,11 @@ const routes = [
     component: LoginView,
   },
   {
+    path: "/logout",
+    name: "logout",
+    component: LogoutView,
+  },
+  {
     path: "/register",
     name: "register",
     component: RegisterView,
@@ -49,7 +55,7 @@ const routes = [
     component: PetNew,
   },
   {
-    path: "/pets/edit",
+    path: "/pets/:id/edit",
     name: "petsedit",
     component: PetEdit,
   },
@@ -69,7 +75,7 @@ const routes = [
     component: CustomerNew,
   },
   {
-    path: "/customers/edit",
+    path: "/customers/:id/edit",
     name: "customersedit",
     component: CustomerEdit,
   },

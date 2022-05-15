@@ -1,5 +1,5 @@
 <template>
-  <div class="customersedit">
+  <div class="customersview">
     <h1>Edit Customer</h1>
     <form v-on:submit.prevent="editCustomer()">
       <ul>
