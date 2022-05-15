@@ -1,5 +1,5 @@
 <template>
-  <div class="petnew">
+  <div class="petnew" style="width: 50%">
     <h1>New Pet</h1>
     <form v-on:submit.prevent="createPet()">
       <ul>

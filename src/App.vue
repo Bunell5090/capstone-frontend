@@ -116,7 +116,9 @@
         </div>
       </nav>
     </header>
-    <router-view />
+    <div id="container2">
+      <router-view />
+    </div>
     <!-- footer Start -->
     <footer class="footer section gray-bg">
       <div class="container">

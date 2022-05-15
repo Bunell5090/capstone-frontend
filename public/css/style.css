@@ -1490,4 +1490,11 @@ a:focus {
   opacity: 1;
 }
 
+.container2 {
+  margin: 25px;
+  width: 350px;
+  height: 200px;
+ }
+
+
 /*# sourceMappingURL=maps/style.css.map */
