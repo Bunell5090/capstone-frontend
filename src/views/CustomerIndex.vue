@@ -8,9 +8,7 @@
       <p>City: {{ customer.city }}</p>
       <p>State: {{ customer.state }}</p>
       <p>Zipcode: {{ customer.zipcode }}</p>
-      <router-link v-bind:to="`/customers/${customer.id}`">
-        <!-- <img v-bind:src="customers.image" v-bind:alt="customers.name" style="max-width: 250px" /> -->
-      </router-link>
+      <router-link v-bind:to="`/customers/${customer.id}`">View Customer</router-link>
     </div>
   </div>
 </template>

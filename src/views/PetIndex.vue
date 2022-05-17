@@ -8,9 +8,7 @@
       <p>Birthday: {{ pet.birthday }}</p>
       <p>Gender: {{ pet.gender }}</p>
       <p>Sterilized: {{ pet.sterilized }}</p>
-      <router-link v-bind:to="`/pets/${pet.id}`">
-        <img v-bind:src="pets.image" v-bind:alt="pets.name" style="max-width: 250px" />
-      </router-link>
+      <router-link v-bind:to="`/pets/${pet.id}`">View Pet</router-link>
     </div>
   </div>
 </template>
