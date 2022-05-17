@@ -9,37 +9,37 @@
       </ul>
       <p>
         Name:
-        <input type="text" v-model="Pets.name" />
+        <input type="text" v-model="pet.name" />
       </p>
       <p>
-        <small v-if="Pets?.name?.length > 0 && Pets?.name?.length < 15">
-          Remaining characters: {{ 15 - Pets?.name?.length }}
+        <small v-if="pet?.name?.length > 0 && pet?.name?.length < 15">
+          Remaining characters: {{ 15 - pet?.name?.length }}
         </small>
-        <small v-if="Pets?.name?.length > 15" class="text-danger">Pet's name can't be over 15 characters.</small>
+        <small v-if="pet?.name?.length > 15" class="text-danger">Pet's name can't be over 15 characters.</small>
       </p>
       <p>
         Species:
-        <input type="text" v-model="Pets.species" />
+        <input type="text" v-model="pet.species" />
       </p>
       <p>
         Breed:
-        <input type="text" v-model="Pets.breed" />
+        <input type="text" v-model="pet.breed" />
       </p>
       <p>
         Birthday:
-        <input type="date" v-model="Pets.birthday" />
+        <input type="date" v-model="pet.birthday" />
       </p>
       <p>
         Customer ID:
-        <input type="customer" v-model="Pets.customer_id" />
+        <input type="customer" v-model="pet.customer_id" />
       </p>
 
       Gender:
       <br />
-      <input type="radio" name="gender" value="Male" v-model="Pets.gender" />
+      <input type="radio" name="gender" value="Male" v-model="pet.gender" />
       Male
       <br />
-      <input type="radio" name="gender" value="Female" v-model="Pets.gender" />
+      <input type="radio" name="gender" value="Female" v-model="pet.gender" />
       Female
 
       <br />
@@ -47,10 +47,10 @@
       <p>
         Sterilized:
         <br />
-        <input type="radio" name="sterilized" value="true" v-model="Pets.sterilized" />
+        <input type="radio" name="sterilized" value="true" v-model="pet.sterilized" />
         Yes
         <br />
-        <input type="radio" name="sterilized" value="false" v-model="Pets.sterilized" />
+        <input type="radio" name="sterilized" value="false" v-model="pet.sterilized" />
         No
 
         <br />
@@ -58,7 +58,7 @@
 
       <p>
         Image Link:
-        <input type="text" v-model="Pets.image" />
+        <input type="text" v-model="pet.image" />
       </p>
 
       <input type="submit" value="EDIT" />

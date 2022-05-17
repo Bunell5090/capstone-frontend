@@ -30,7 +30,7 @@ export default {
     await this.loadTime();
     // console.log("P: " + p);
     console.log("this.events: " + JSON.stringify(this.events));
-    // this.setEventVal();
+    this.setEventVal();
   },
   methods: {
     setEventVal() {
@@ -44,11 +44,19 @@ export default {
           split: 2,
         },
         {
-          start: "2020-1-21 15:25",
-          end: "2020-1-21 16:25",
-          title: "john 1",
-          content: '<i class="v-icon material-icons">local_hospital</i>',
-          class: "health",
+          start: "2022-05-20 10:00",
+          end: "2022-05-20 12:00",
+          title: "Ish Smith - Neuter Surgery",
+          // content: '<i class="v-icon material-icons">local_hospital</i>',
+          class: "surgery",
+          split: 2,
+        },
+        {
+          start: "2022-05-21 11:00",
+          end: "2022-05-21 12:00",
+          title: "Pickles Smith - Fang Repair",
+          // content: '<i class="v-icon material-icons">local_hospital</i>',
+          class: "surgery",
           split: 2,
         },
       ];
@@ -97,11 +105,20 @@ export default {
     },
   },
   data: () => ({
-    events: [],
+    events: [
+      {
+        start: "2022-05-19 9:30",
+        end: "2022-05-19 10:15",
+        title: "Dentist appointment",
+        content: '<i class="v-icon material-icons">local_hospital</i>',
+        class: "health",
+        split: 2,
+      },
+    ],
     events2: [
       {
-        start: "2018-11-19 18:30",
-        end: "2018-11-19 19:15",
+        start: "2022-05-19 9:30",
+        end: "2022-05-19 10:15",
         title: "Dentist appointment",
         content: '<i class="v-icon material-icons">local_hospital</i>',
         class: "health",
