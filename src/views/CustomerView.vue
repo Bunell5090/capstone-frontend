@@ -4,8 +4,8 @@
     <p>First Name: {{ customers.first_name }}</p>
     <p>Last Name: {{ customers.last_name }}</p>
     <p>Address: {{ customers.address }}</p>
-    <p>City: {{ customer.city }}</p>
-    <p>State: {{ customer.state }}</p>
+    <p>City: {{ customers.city }}</p>
+    <p>State: {{ customers.state }}</p>
     <p>Zipcode: {{ customers.zipcode }}</p>
     <router-link v-bind:to="`/customers/${customers.id}/edit`" style="margin-right: 10px">Edit Customer</router-link>
     <button v-on:click="destroyCustomer()" style="margin-right: 10px">Delete</button>
@@ -27,6 +27,13 @@ export default {
       this.customers = response.data;
     });
   },
-  methods: {},
+  methods: {
+    destroyCustomer() {
+      axios.delete(`/customers/${this.customers.id}`).then((response) => {
+        console.log(response);
+        this.$router.push("/customers");
+      });
+    },
+  },
 };
 </script>

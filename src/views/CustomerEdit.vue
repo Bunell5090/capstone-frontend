@@ -9,40 +9,40 @@
       </ul>
       <p>
         First Name:
-        <input type="text" v-model="Customer.first_name" />
+        <input type="text" v-model="Customers.first_name" />
       </p>
       <p>
-        <small v-if="Customer?.first_name?.length > 0 && Customer?.first_name?.length < 15">
-          Remaining characters: {{ 15 - Customer?.first_name?.length }}
+        <small v-if="Customers?.first_name?.length > 0 && Customers?.first_name?.length < 15">
+          Remaining characters: {{ 15 - Customers?.first_name?.length }}
         </small>
-        <small v-if="Customer?.first_name?.length > 15" class="text-danger">
+        <small v-if="Customers?.first_name?.length > 15" class="text-danger">
           Customer's first name can't be over 15 characters.
         </small>
       </p>
       <p>
         Last Name:
-        <input type="text" v-model="Customer.last_name" />
+        <input type="text" v-model="Customers.last_name" />
       </p>
       <p>
-        <small v-if="Customer?.last_name?.length > 0 && Customer?.last_name?.length < 15">
-          Remaining characters: {{ 15 - Customer?.last_name?.length }}
+        <small v-if="Customers?.last_name?.length > 0 && Customers?.last_name?.length < 15">
+          Remaining characters: {{ 15 - Customers?.last_name?.length }}
         </small>
-        <small v-if="Customer?.last_name?.length > 15" class="text-danger">
+        <small v-if="Customers?.last_name?.length > 15" class="text-danger">
           Customer's last name can't be over 15 characters.
         </small>
       </p>
 
       <p>
         Address:
-        <input type="text" v-model="Customer.address" />
+        <input type="text" v-model="Customers.address" />
       </p>
       <p>
         City:
-        <input type="text" v-model="Customer.city" />
+        <input type="text" v-model="Customers.city" />
       </p>
       <p>
         <label for="state">State:</label>
-        <select name="state" id="state" v-model="Customer.state">
+        <select name="state" id="state" v-model="Customers.state">
           <option value="AL">Alabama</option>
           <option value="AK">Alaska</option>
           <option value="AZ">Arizona</option>
@@ -99,7 +99,7 @@
 
       <p>
         Zipcode:
-        <input type="customer" maxlength="5" v-model="Customer.zipcode" />
+        <input type="customer" maxlength="5" v-model="Customers.zipcode" />
       </p>
       <input type="submit" value="EDIT" />
     </form>
