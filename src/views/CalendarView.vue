@@ -2,13 +2,17 @@
   <div>
     <vue-cal
       class="vuecal--blue-theme"
-      selected-date="2020-1-21"
-      :disable-views="['years', 'year']"
-      default-view="month"
+      selected-date="2022-5-16"
+      :time-from="9 * 60"
+      :time-to="17 * 60"
+      :time-step="30"
+      :disable-views="['years', 'year', 'day', 'days']"
+      default-view="week"
       events-on-month-view="short"
       overlaps-per-time-step
       :events="events"
       style="height: 600px"
+      :on-event-click="onEventClick"
     >
       <p>POOOPPOOO</p>
     </vue-cal>
@@ -32,11 +36,11 @@ export default {
     setEventVal() {
       this.events = [
         {
-          start: "2018-11-19 18:30",
-          end: "2018-11-19 19:15",
-          title: "Dentist appointment",
-          content: '<i class="v-icon material-icons">local_hospital</i>',
-          class: "health",
+          start: "2022-05-20 9:00",
+          end: "2022-05-20 10:00",
+          title: "Chloe Unell - Flu Vaccine",
+          // content: '<i class="v-icon material-icons">local_hospital</i>',
+          class: "vaccine",
           split: 2,
         },
         {

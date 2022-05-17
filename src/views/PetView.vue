@@ -27,6 +27,13 @@ export default {
       this.pets = response.data;
     });
   },
-  methods: {},
+  methods: {
+    destroyPet() {
+      axios.delete(`/pets/${this.pets.id}`).then((response) => {
+        console.log(response);
+        this.$router.push("/pets");
+      });
+    },
+  },
 };
 </script>
