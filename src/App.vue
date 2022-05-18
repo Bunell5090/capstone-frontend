@@ -106,10 +106,10 @@
     <footer class="footer section gray-bg">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 mr-auto col-sm-6">
+          <!-- <div class="col-lg-4 mr-auto col-sm-6">
             <div class="widget mb-5 mb-lg-0">
               <div class="logo mb-4">
-                <img src="/images/logo.png" alt="" class="img-fluid" />
+                 <img src="/images/logo.png" alt="" class="img-fluid" />
               </div>
               <p>
                 Tempora dolorem voluptatum nam vero assumenda voluptate, facilis ad eos obcaecati tenetur veritatis
@@ -128,24 +128,27 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </div> -->
 
           <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="widget mb-5 mb-lg-0">
-              <h4 class="text-capitalize mb-3">Department</h4>
+              <h4 class="text-capitalize mb-3">Links</h4>
               <div class="divider mb-4"></div>
 
               <ul class="list-unstyled footer-menu lh-35">
-                <li><a href="#">Surgery</a></li>
-                <li><a href="#">Wome's Health</a></li>
-                <li><a href="#">Radiology</a></li>
-                <li><a href="#">Cardioc</a></li>
-                <li><a href="#">Medicine</a></li>
+                <li>
+                  <a href="https://www.akc.org/expert-advice/health/puppy-shots-complete-guide/">Puppy Vaccines</a>
+                </li>
+                <li><a href="https://www.thesprucepets.com/vaccines-for-dogs-3384664">Core Dog Vaccines</a></li>
+                <li>
+                  <a href="https://www.thesprucepets.com/kitten-vaccine-schedule-4165446">Kitten Vaccines</a>
+                </li>
+                <li><a href="https://www.petmd.com/cat/wellness/essential-cat-vaccinations">Core Cat Vaccines</a></li>
               </ul>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 col-sm-6">
+          <!-- <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="widget mb-5 mb-lg-0">
               <h4 class="text-capitalize mb-3">Support</h4>
               <div class="divider mb-4"></div>
@@ -158,9 +161,9 @@
                 <li><a href="#">Company Licence</a></li>
               </ul>
             </div>
-          </div>
+          </div> -->
 
-          <div class="col-lg-3 col-md-6 col-sm-6">
+          <!-- <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="widget widget-contact mb-5 mb-lg-0">
               <h4 class="text-capitalize mb-3">Get in Touch</h4>
               <div class="divider mb-4"></div>
@@ -181,7 +184,7 @@
                 <h4 class="mt-2"><a href="tel:+23-345-67890">+23-456-6588</a></h4>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
 
         <div class="footer-btm py-4 mt-5">
@@ -189,19 +192,17 @@
             <div class="col-lg-6">
               <div class="copyright">
                 &copy; Copyright Reserved to
-                <span class="text-color">Novena</span>
-                by
-                <a href="https://themefisher.com/" target="_blank">Themefisher</a>
+                <span class="text-color">VetPet</span>
               </div>
             </div>
-            <div class="col-lg-6">
+            <!-- <div class="col-lg-6">
               <div class="subscribe-form text-lg-right mt-5 mt-lg-0">
                 <form action="#" class="subscribe">
                   <input type="text" class="form-control" placeholder="Your Email address" />
                   <a href="#" class="btn btn-main-2 btn-round-full">Subscribe</a>
                 </form>
               </div>
-            </div>
+            </div> -->
           </div>
 
           <div class="row">
