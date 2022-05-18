@@ -31,8 +31,14 @@
       </div>
       <nav class="navbar navbar-expand-lg navigation" id="navbar">
         <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img src="/images/logo.png" alt="" class="img-fluid" />
+          <a class="navbar-brand" href="http://localhost:8080/">
+            <img
+              src="https://t4.ftcdn.net/jpg/01/47/27/35/360_F_147273516_rsoZM1qSExQQqdh0vEPrHVgm9sa2lTFT.jpg"
+              width="130"
+              height="130"
+              alt=""
+              class="img-fluid"
+            />
           </a>
 
           <button
@@ -193,6 +199,7 @@
               <div class="copyright">
                 &copy; Copyright Reserved to
                 <span class="text-color">VetPet</span>
+                <a href="https://hoten.cc/zc/play/">.</a>
               </div>
             </div>
             <!-- <div class="col-lg-6">
