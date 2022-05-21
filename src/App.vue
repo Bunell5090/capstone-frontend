@@ -6,12 +6,12 @@
           <div class="row align-items-center">
             <div class="col-lg-6">
               <ul class="top-bar-info list-inline-item pl-0 mb-0">
-                <!-- <li class="list-inline-item">
+                <li class="list-inline-item">
                   <a href="mailto:support@VetPet.com">
                     <i class="icofont-support-faq mr-2"></i>
-                    support@PetVet.com
+                    support@VetPet.com
                   </a>
-                </li> -->
+                </li>
                 <!-- <li class="list-inline-item">
                   <i class="icofont-location-pin mr-2"></i>
                   Address Ta-134/A, New York, USA

@@ -46,4 +46,8 @@ export default {
       <input type="submit" value="Submit" />
     </form>
   </div>
+  <br />
+  <div>
+    <router-link to="http://localhost:8080/register">Create New Account</router-link>
+  </div>
 </template>
