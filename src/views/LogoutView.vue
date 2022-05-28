@@ -10,7 +10,7 @@ export default {
     delete axios.defaults.headers.common["Authorization"];
     localStorage.removeItem("jwt");
     this.$router.push("/");
-    window.location.href = "http://localhost:8080/login";
+    window.location.href = "http://localhost:8080/";
   },
 };
 </script>
