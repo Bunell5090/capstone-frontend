@@ -9,7 +9,7 @@
     <p>Zipcode: {{ customers.zipcode }}</p>
     <router-link v-bind:to="`/customers/${customers.id}/edit`" style="margin-right: 10px">Edit Customer</router-link>
     <button v-on:click="destroyCustomer()" style="margin-right: 10px">Delete</button>
-    <router-link to="/customers">Back to all customers</router-link>
+    <router-link to="/customers">Back to list of all customers</router-link>
   </div>
 </template>
 

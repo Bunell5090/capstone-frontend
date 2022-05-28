@@ -9,7 +9,7 @@
     <p>Sterilized: {{ pets.sterilized }}</p>
     <router-link v-bind:to="`/pets/${pets.id}/edit`" style="margin-right: 10px">Edit Pet</router-link>
     <button v-on:click="destroyPet()" style="margin-right: 10px">Delete</button>
-    <router-link to="http://localhost:8080/pets">Back to all pets</router-link>
+    <router-link to="http://localhost:8080/pets">Back to list of all pets</router-link>
   </div>
 </template>
 

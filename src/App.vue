@@ -56,7 +56,7 @@
           <div class="collapse navbar-collapse" id="navbarmain">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="http://localhost:8080/">Home</a>
+                <a class="nav-link" href="http://localhost:8080/home">Home</a>
               </li>
               <!-- <li class="nav-item"><a class="nav-link" href="about.html">About</a></li> -->
               <!-- <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li> -->
