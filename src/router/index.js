@@ -15,7 +15,7 @@ import CustomerEdit from "../views/CustomerEdit.vue";
 
 const routes = [
   {
-    path: "/",
+    path: "/home",
     name: "home",
     component: HomeView,
   },
@@ -25,7 +25,7 @@ const routes = [
     component: CalendarView,
   },
   {
-    path: "/login",
+    path: "/",
     name: "login",
     component: LoginView,
   },
