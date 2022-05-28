@@ -36,17 +36,36 @@ export default {
         <input type="text" v-model="newUserParams.user_name" required />
       </div>
       <div>
-        <label>First Name:</label>
-        <input type="text" v-model="newUserParams.first_name" required />
+        <div>
+          <label>First Name:</label>
+          <input type="text" v-model="newUserParams.first_name" required />
+          <p>
+            <small v-if="newUserParams?.first_name?.length > 15" class="text-danger">
+              Customer's first name can't be over 15 characters.
+            </small>
+            <small v-if="newUserParams?.first_name?.length > 0 && newUserParams?.first_name?.length < 15">
+              Remaining characters: {{ 15 - newUserParams?.first_name?.length }}
+            </small>
+          </p>
+        </div>
       </div>
       <div>
         <label>Last Name:</label>
         <input type="text" v-model="newUserParams.last_name" required />
+        <p>
+          <small v-if="newUserParams?.last_name?.length > 15" class="text-danger">
+            Customer's last name can't be over 15 characters.
+          </small>
+          <small v-if="newUserParams?.last_name?.length > 0 && newUserParams?.last_name?.length < 15">
+            Remaining characters: {{ 15 - newUserParams?.last_name?.length }}
+          </small>
+        </p>
       </div>
       <div>
         <label>Job Title:</label>
         <input type="text" v-model="newUserParams.position" required />
       </div>
+
       <div>
         <label>Password:</label>
         <input type="password" v-model="newUserParams.password" required />
