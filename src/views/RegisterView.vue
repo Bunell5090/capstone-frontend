@@ -61,10 +61,17 @@ export default {
           </small>
         </p>
       </div>
-      <div>
-        <label>Job Title:</label>
-        <input type="text" v-model="newUserParams.position" required />
-      </div>
+      <p>
+        <label for="job">Job Title:</label>
+        <select name="job" id="job" v-model="newUserParams.position" required>
+          <option value="Vet Tech">Vet Tech</option>
+          <option value="Vet">Vet</option>
+          <option value="Receptionist">Receptionist</option>
+          <option value="Lab Tech">Lab Tech</option>
+          <option value="Vet Student">Vet Student</option>
+          <option value="Janitor">Janitor</option>
+        </select>
+      </p>
 
       <div>
         <label>Password:</label>
