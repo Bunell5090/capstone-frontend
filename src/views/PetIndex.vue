@@ -8,7 +8,7 @@
       <p>Birthday: {{ pet.birthday }}</p>
       <p>Gender: {{ pet.gender }}</p>
       <p>Sterilized: {{ pet.sterilized }}</p>
-      <router-link v-bind:to="`/pets/${pet.id}`">View Pet</router-link>
+      <router-link v-bind:to="`/pets/${pet.id}`">View Patient</router-link>
     </div>
   </div>
 </template>
