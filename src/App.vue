@@ -53,7 +53,11 @@
             <span class="icofont-navigation-menu"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarmain">
+          <div
+            class="collapse navbar-collapse"
+            id="navbarmain"
+            v-if="this.$route.name != 'login' && this.$route.name != 'register'"
+          >
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
                 <a class="nav-link" href="http://localhost:8080/home">Home</a>
