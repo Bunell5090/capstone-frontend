@@ -97,7 +97,7 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown03">
                   <li><a class="dropdown-item" href="http://localhost:8080/pets/">Patient List</a></li>
-                  <li><a class="dropdown-item" href="http://localhost:8080/patients/new">New Patient</a></li>
+                  <li><a class="dropdown-item" href="http://localhost:8080/pets/new">New Patient</a></li>
                 </ul>
               </li>
 
