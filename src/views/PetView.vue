@@ -1,6 +1,6 @@
 <template>
   <div class="petsview">
-    <h1>Pet Info</h1>
+    <h1>Patient Info</h1>
     <p>Name: {{ pets.name }}</p>
     <p>Species: {{ pets.species }}</p>
     <p>Breed: {{ pets.breed }}</p>

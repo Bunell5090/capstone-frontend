@@ -1,6 +1,6 @@
 <template>
   <div class="petsnew" style="width: 50%">
-    <h1>New Pet</h1>
+    <h1>New Patient</h1>
     <form v-on:submit.prevent="createPet()">
       <ul>
         <li v-for="error in errors" v-bind:key="error">{{ error }}</li>

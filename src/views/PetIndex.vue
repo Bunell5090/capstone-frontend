@@ -1,7 +1,7 @@
 <template>
   <div class="pets">
     <div v-for="pet in pets" v-bind:key="pet.id">
-      <h1>Pet Info</h1>
+      <h1>Patient Info</h1>
       <p>Name: {{ pet.name }}</p>
       <p>Species: {{ pet.species }}</p>
       <p>Breed: {{ pet.breed }}</p>
