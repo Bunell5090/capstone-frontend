@@ -90,4 +90,7 @@ export default {
       <input type="submit" value="Submit" />
     </form>
   </div>
+  <div>
+    <router-link to="http://localhost:8080/">Back To Login Screen</router-link>
+  </div>
 </template>

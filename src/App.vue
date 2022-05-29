@@ -92,12 +92,12 @@
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  Pets
+                  Patients
                   <i class="icofont-thin-down"></i>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                  <li><a class="dropdown-item" href="http://localhost:8080/pets/">Pet List</a></li>
-                  <li><a class="dropdown-item" href="http://localhost:8080/pets/new">New Pet</a></li>
+                  <li><a class="dropdown-item" href="http://localhost:8080/pets/">Patient List</a></li>
+                  <li><a class="dropdown-item" href="http://localhost:8080/patients/new">New Patient</a></li>
                 </ul>
               </li>
 
