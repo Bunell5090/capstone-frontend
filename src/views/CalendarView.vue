@@ -2,7 +2,7 @@
   <div>
     <vue-cal
       class="vuecal--blue-theme"
-      selected-date="2022-5-16"
+      selected-date="2022-6-01"
       :time-from="9 * 60"
       :time-to="17 * 60"
       :time-step="30"
