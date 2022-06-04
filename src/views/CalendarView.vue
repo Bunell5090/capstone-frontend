@@ -14,7 +14,7 @@
       style="height: 600px"
       :on-event-click="onEventClick"
     >
-      <p>POOOPPOOO</p>
+      <!-- <p>POOOPPOOO</p> -->
     </vue-cal>
   </div>
 </template>
