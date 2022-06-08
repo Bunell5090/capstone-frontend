@@ -101,7 +101,7 @@
                 </ul>
               </li>
 
-              <li class="nav-item"><a class="nav-link" href="http://localhost:8080/calendar">Appointments</a></li>
+              <li class="nav-item"><a class="nav-link" href="http://localhost:8080/calendar">Calendar</a></li>
 
               <li class="nav-item"><a class="nav-link" href="http://localhost:8080/logout">Logout</a></li>
             </ul>
