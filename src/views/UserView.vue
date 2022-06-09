@@ -1,5 +1,5 @@
 <template>
-  <div class="usersview">
+  <div class="Userview">
     <h1>Edit User</h1>
     <form v-on:submit.prevent="editUser()">
       <ul>
@@ -12,37 +12,37 @@
       </ul>
       <div>
         <label>User Name:</label>
-        <input type="text" v-model="newUserParams.user_name" required />
+        <input type="text" v-model="user.user_name" required />
       </div>
       <div>
         <div>
           <label>First Name:</label>
-          <input type="text" v-model="newUserParams.first_name" required />
+          <input type="text" v-model="user.first_name" required />
           <p>
-            <small v-if="newUserParams?.first_name?.length > 15" class="text-danger">
-              Customer's first name can't be over 15 characters.
+            <small v-if="user?.first_name?.length > 15" class="text-danger">
+              User's first name can't be over 15 characters.
             </small>
-            <small v-if="newUserParams?.first_name?.length > 0 && newUserParams?.first_name?.length < 15">
-              Remaining characters: {{ 15 - newUserParams?.first_name?.length }}
+            <small v-if="user?.first_name?.length > 0 && user?.first_name?.length < 15">
+              Remaining characters: {{ 15 - user?.first_name?.length }}
             </small>
           </p>
         </div>
       </div>
       <div>
         <label>Last Name:</label>
-        <input type="text" v-model="newUserParams.last_name" required />
+        <input type="text" v-model="user.last_name" required />
         <p>
-          <small v-if="newUserParams?.last_name?.length > 15" class="text-danger">
+          <small v-if="user?.last_name?.length > 15" class="text-danger">
             Customer's last name can't be over 15 characters.
           </small>
-          <small v-if="newUserParams?.last_name?.length > 0 && newUserParams?.last_name?.length < 15">
-            Remaining characters: {{ 15 - newUserParams?.last_name?.length }}
+          <small v-if="user?.last_name?.length > 0 && user?.last_name?.length < 15">
+            Remaining characters: {{ 15 - user?.last_name?.length }}
           </small>
         </p>
       </div>
       <p>
         <label for="job">Job Title:</label>
-        <select name="job" id="job" v-model="newUserParams.position" required>
+        <select name="job" id="job" v-model="user.position" required>
           <option value="Vet Tech">Vet Tech</option>
           <option value="Vet">Vet</option>
           <option value="Receptionist">Receptionist</option>
@@ -54,16 +54,16 @@
 
       <div>
         <label>Password:</label>
-        <input type="password" v-model="newUserParams.password" required />
+        <input type="password" v-model="user.password" required />
       </div>
-      <small v-if="newUserParams?.password?.length > 0 && newUserParams?.password?.length < 6" class="text-danger">
+      <small v-if="user?.password?.length > 0 && user?.password?.length < 6" class="text-danger">
         Password must be longer than 6 characters.
       </small>
       <div>
         <label>Password confirmation:</label>
-        <input type="password" v-model="newUserParams.password_confirmation" required />
+        <input type="password" v-model="user.password_confirmation" required />
       </div>
-      <small v-if="newUserParams.password !== newUserParams.password_confirmation" class="text-danger">
+      <small v-if="user.password !== user.password_confirmation" class="text-danger">
         Password confirmation shoud match password.
       </small>
       <input type="submit" value="EDIT" />
